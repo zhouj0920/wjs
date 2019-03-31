@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 移动端适配 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/index.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <style>
+        .swiper-slide img{
+            width: 100%;
+            display: block;
+        }
+        .swiper-pagination-bullet-active{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="jd_layout">
+        <!-- 搜索块 -->
+        <div class="jd_search">
+            <a href="javascript:;" class="logo"></a>
+            <form action="" class="searchBox">
+                <input type="text" placeholder="请输入商品的名称">
+            </form>
+            <a href="javascript:;" class="login">登录</a>
+        </div>
+        <!-- 轮播图 -->
+        <div class=" swiper-container">
+            <ul class=" swiper-wrapper">
+                <li class="swiper-slide">
+                    <img src="uploads/l1.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l2.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l3.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l4.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l5.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l6.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l7.jpg" alt="">
+                </li>
+                <li class="swiper-slide">
+                    <img src="uploads/l8.jpg" alt="">
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+
+            <!-- <div class="dianBox">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </div> -->
+        </div>
+        <!-- 导航块 -->
+        <div class="jd_nav clearfix">
+            <ul>
+                <li>
+                    <img src="images/nav_1.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_2.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_3.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_4.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_5.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_6.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_7.png" alt="">
+                    <p>商品分类</p>
+                </li>
+                <li>
+                    <img src="images/nav_8.png" alt="">
+                    <p>商品分类</p>
+                </li>
+            </ul>
+        </div>
+        <!-- 产品块 -->
+        <div class="jd_product">
+            <div class="jd_productBox zhou">
+                <div class="jd_pHeader">
+                    <div class="jd_left f_left">
+                        <span class="jd_sk_icon f_left"></span>
+                        <span class="jd_sk_text f_left">掌上秒杀</span>
+                        <div class="jd_sk_time f_left">
+                            <span>0</span>
+                            <span>0</span>
+                            <span>:</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>:</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+                    </div>
+                    <div class="jd_right f_right">更多秒杀...</div>
+                </div>
+                <div class="jd_Pcontent clearfix">
+                    <ul>
+                        <li>
+                            <img src="uploads/detail01.jpg" alt="">
+                            <del><p>&yen;10.00</p></del>
+                            <p>&yen;20.00</p>
+                        </li>
+                        <li>
+                            <img src="uploads/detail01.jpg" alt="">
+                            <del><p>&yen;10.00</p></del>
+                            <p>&yen;20.00</p>
+                        </li>
+                        <li>
+                            <img src="uploads/detail01.jpg" alt="">
+                            <del><p>&yen;10.00</p></del>
+                            <p>&yen;20.00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="jd_productBox ">
+                <div class="jd_pHeader">
+                    <h3>京东超市</h3>
+                </div>
+                <div class="jd_PContent clearfix">
+                    <a href="javascript:;" class="f_left b_top">
+                        <img src="uploads/cp1.jpg" alt="">
+                    </a>
+                    <a href="javascript:;" class="f_left b_top b_bottom b_left">
+                        <img src="uploads/cp2.jpg" alt="">
+                    </a>
+                    <a href="javascript:;" class="f_left b_left">
+                        <img src="uploads/cp3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="jd_productBox">
+                <div class="jd_pHeader">
+                    <h3>京东超市</h3>
+                </div>
+                <div class="jd_PContent  clearfix">
+                    <a href="javascript:;" class="f_right b_top">
+                        <img src="uploads/cp4.jpg" alt="">
+                    </a>
+                    <a href="javascript:;" class="f_left b_top b_bottom b_left">
+                        <img src="uploads/cp5.jpg" alt="">
+                    </a>
+                    <a href="javascript:;" class="f_left b_left">
+                        <img src="uploads/cp6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // var mySwiper = new Swiper ('.swiper-container', {
+    //         direction: 'horizontal', // 垂直切换选项
+    //         loop: true, // 循环模式选项
+            
+    //         // 如果需要分页器
+    //         pagination: {
+    //             el: '.swiper-pagination',
+    //         },
+    //         grabCursor:true,  //拖拽抓手效果
+    //         autoplay:true,     //设置定时器切换,自动播放
+    //         // effect : 'cube',   //设置轮播图切换,为翻转效果
+    //         // 如果需要前进后退按钮
+    //         navigation: {
+    //             nextEl: '.swiper-button-next',
+    //             prevEl: '.swiper-button-prev',
+    //         },
+            
+    //         // // 如果需要滚动条
+    //         // scrollbar: {
+    //         //     el: '.swiper-scrollbar',
+    //         // },
+    //     })        
+
+        var mySwiper = new Swiper('.swiper-container', {
+            speed: 1000, //图片切换时间
+            // autoplay: {
+            // delay: 3000 //
+            // },
+
+            autoplay: {
+                disableOnInteraction: false,
+                // true：停止 为false，用户操作swiper之后自动切换不会停止，每次都会重新启动autoplay,触碰，拖动，点击pagination等
+            },
+
+            grabCursor: true, //拖动时指针会变成抓手形状   关闭：false 开启：true
+            direction: 'horizontal', // horizontal：横向切换    vertical  垂直切换选项
+            loop: true, // 循环模式选项  关闭: false 开启: true
+            effect: 'fade', //默认为"slide"（位移切换），可设置为'slide'（普通切换、默认）,"fade"（淡入）"cube"（方块）"coverflow"（3d流）"flip"（3d翻转）
+            mousewheel: true, //开启鼠标滚轮控制Swiper切换 开启: true  关闭: false
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets', //‘bullets’ 圆点（ 默认）
+                // type: 'fraction',    //‘ fraction’ 分式
+                // type : 'progressbar',  //‘progressbar’ 进度条
+                // type : 'custom',
+                // bulletActiveClass: 'my-bullet-active',
+                clickable: true, //点击分页器的指示点分页器会控制Swiper切换
+                //hideOnClick :true, //默认分页器会一直显示。这个选项设置为true时点击Swiper会隐藏/显示分页器。
+            },
+            // 如果需要前进后退按钮
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+
+            // 如果需要滚动条
+            // scrollbar: {
+            //     el: '.swiper-scrollbar',
+            // },
+        })
+
+</script>
+</html>

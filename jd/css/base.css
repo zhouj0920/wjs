@@ -1,0 +1,106 @@
+/* 公共样式 */
+
+
+/* 清除默认样式 */
+
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+img,
+ul,
+li,
+form,
+input {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* 设置盒模型 */
+    box-sizing: border-box;
+    /* 去除移动端特有的点击高亮效果 */
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    /* 清除文本框获得焦点时默认的边框阴影 */
+    outline: none;
+    /* 去除边框 */
+    border: none;
+    /* 添加边框 */
+    border: 1px solid #ccc;
+}
+
+
+/* 浮动 */
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.m_left {
+    margin-left: 10px;
+}
+
+.m_right {
+    margin-right: 10px;
+}
+
+.m_top {
+    margin-top: 10px;
+}
+
+body {
+    color: #666;
+    font-family: "微软雅黑";
+    font-size: 13px;
+}
+
+a,
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* 清除浮动 */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.b_top {
+    border-top: 1px solid #ccc;
+}
+
+.b_left {
+    border-left: 1px solid #ccc;
+}
+
+.b_right {
+    border-right: 1px solid #ccc;
+}
+
+.b_bottom {
+    border-bottom: 1px solid #ccc;
+}
